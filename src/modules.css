@@ -1,0 +1,49 @@
+.table-toolbar {
+  padding: 14px 17px;
+}
+
+.table-toolbar input,
+.table-toolbar select {
+  min-height: 38px;
+}
+
+.text-action {
+  padding: 5px 0;
+  border: 0;
+  color: #276b55;
+  background: transparent;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.text-action:hover {
+  color: #183d36;
+  text-decoration: underline;
+}
+
+.report-summary {
+  padding: 18px;
+  color: #43534b;
+  font-size: 14px;
+}
+
+.calendar-shell {
+  overflow: hidden;
+}
+
+.calendar-weekday:nth-child(7n),
+.calendar-day:nth-child(7n) {
+  border-right: 0;
+}
+
+.calendar-day.today {
+  background: #f0f6e8;
+}
+
+@media (max-width: 760px) {
+  .table-toolbar input[type='search'] {
+    min-width: 100%;
+  }
+}
